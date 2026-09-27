@@ -12,7 +12,7 @@
 > Высокопроизводительный, модульный и выверенный до мелочей конфигурационный пакет (`autoexec`) для **Counter-Strike 2**. Полностью адаптирован под актуальный движок Source 2, осенние обновления 2026 года (патч 1.41.8.2) и соревновательный режим Premier/Faceit.
 
 > [!TIP]
-> 📥 **Быстрая загрузка:** Чтобы сразу скачать готовый архив со всеми файлами конфигурации и инструкцией, перейдите в [**Релиз v1.0.0**](https://github.com/Vektor010/cs2-autoexec/releases/latest) и скачайте `cs2-autoexec-v1.0.0.zip`.
+> 📥 **Быстрая загрузка:** Чтобы сразу скачать готовый архив со всеми файлами конфигурации и инструкцией, перейдите в [**Релиз v1.0.0**](https://github.com/Vektor010/cs2-autoexec/releases/latest) и скачайте `autoexec.zip`.
 
 ---
 
@@ -123,7 +123,7 @@ cs2-autoexec/
 ## 🚀 Установка и запуск
 
 ### 1. Скачивание и копирование файлов
-- **Быстрый способ:** Скачайте архив [`cs2-autoexec-v1.0.0.zip`](https://github.com/Vektor010/cs2-autoexec/releases/latest) и распакуйте всё его содержимое в папку `cfg` вашей CS2:
+- **Быстрый способ:** Скачайте архив [`autoexec.zip`](https://github.com/Vektor010/cs2-autoexec/releases/latest) и распакуйте всё его содержимое в папку `cfg` вашей CS2:
 ```text
 <SteamLibrary>\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
 ```

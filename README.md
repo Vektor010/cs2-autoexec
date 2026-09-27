@@ -1,12 +1,12 @@
 # 🎮 CS2 Pro Autoexec 2026
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Game-Counter--Strike%202-orange?style=for-the-badge&logo=counter-strike" alt="CS2 Badge"/>
-  <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-blue?style=for-the-badge" alt="Source 2"/>
-  <img src="https://img.shields.io/badge/Patch%20Version-1.41.8.2%2B-green?style=for-the-badge" alt="Patch"/>
-  <img src="https://img.shields.io/badge/Display-240Hz%20%7C%20144Hz-purple?style=for-the-badge" alt="Display"/>
-  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/badge/Download-autoexec.zip-brightgreen?style=for-the-badge&logo=github" alt="Download autoexec.zip"/></a>
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" alt="License"/>
+  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/badge/Download-autoexec.zip-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Download autoexec.zip"/></a>
+  <img src="https://img.shields.io/badge/Game-Counter--Strike%202-EA580C?style=flat-square&logo=counter-strike&logoColor=white" alt="CS2"/>
+  <img src="https://img.shields.io/badge/Engine-Source%202-0284C7?style=flat-square" alt="Source 2"/>
+  <img src="https://img.shields.io/badge/Patch-1.41.8.2-16A34A?style=flat-square" alt="Patch"/>
+  <img src="https://img.shields.io/badge/Display-240Hz%20%7C%20144Hz-9333EA?style=flat-square" alt="Display"/>
+  <img src="https://img.shields.io/badge/License-MIT-64748B?style=flat-square" alt="License"/>
 </p>
 
 > Высокопроизводительный, модульный и выверенный до мелочей конфигурационный пакет (`autoexec`) для **Counter-Strike 2**. Полностью адаптирован под актуальный движок Source 2, осенние обновления 2026 года (патч 1.41.8.2) и соревновательный режим Premier/Faceit.

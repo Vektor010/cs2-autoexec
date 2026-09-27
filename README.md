@@ -5,10 +5,14 @@
   <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-blue?style=for-the-badge" alt="Source 2"/>
   <img src="https://img.shields.io/badge/Patch%20Version-1.41.8.2%2B-green?style=for-the-badge" alt="Patch"/>
   <img src="https://img.shields.io/badge/Display-240Hz%20%7C%20144Hz-purple?style=for-the-badge" alt="Display"/>
+  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/github/v/release/Vektor010/cs2-autoexec?style=for-the-badge&color=success&label=Скачать%20Релиз" alt="Download Release"/></a>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" alt="License"/>
 </p>
 
 > Высокопроизводительный, модульный и выверенный до мелочей конфигурационный пакет (`autoexec`) для **Counter-Strike 2**. Полностью адаптирован под актуальный движок Source 2, осенние обновления 2026 года (патч 1.41.8.2) и соревновательный режим Premier/Faceit.
+
+> [!TIP]
+> 📥 **Быстрая загрузка:** Чтобы сразу скачать готовый архив со всеми файлами конфигурации и инструкцией, перейдите в [**Релиз v1.0.0**](https://github.com/Vektor010/cs2-autoexec/releases/latest) и скачайте `cs2-autoexec-v1.0.0.zip`.
 
 ---
 
@@ -118,11 +122,12 @@ cs2-autoexec/
 
 ## 🚀 Установка и запуск
 
-### 1. Копирование файлов
-Скопируйте всё содержимое репозитория в каталог конфигураций вашей CS2:
-```
+### 1. Скачивание и копирование файлов
+- **Быстрый способ:** Скачайте архив [`cs2-autoexec-v1.0.0.zip`](https://github.com/Vektor010/cs2-autoexec/releases/latest) и распакуйте всё его содержимое в папку `cfg` вашей CS2:
+```text
 <SteamLibrary>\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
 ```
+*(Либо клонируйте репозиторий: `git clone https://github.com/Vektor010/cs2-autoexec.git`)*.
 
 ### 2. Параметры запуска Steam
 В свойствах игры в Steam укажите следующие параметры запуска:

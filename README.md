@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-blue?style=for-the-badge" alt="Source 2"/>
   <img src="https://img.shields.io/badge/Patch%20Version-1.41.8.2%2B-green?style=for-the-badge" alt="Patch"/>
   <img src="https://img.shields.io/badge/Display-240Hz%20%7C%20144Hz-purple?style=for-the-badge" alt="Display"/>
-  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/github/v/release/Vektor010/cs2-autoexec?style=for-the-badge&color=success&label=Скачать%20Релиз" alt="Download Release"/></a>
+  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/badge/Download-autoexec.zip-brightgreen?style=for-the-badge&logo=github" alt="Download autoexec.zip"/></a>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" alt="License"/>
 </p>
 

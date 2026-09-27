@@ -1,4 +1,4 @@
-# 🎮 CS2 Pro Modular Autoexec (2026 Edition)
+# 🎮 CS2 Pro Autoexec 2026
 
 <p align="center">
   <img src="https://img.shields.io/badge/Game-Counter--Strike%202-orange?style=for-the-badge&logo=counter-strike" alt="CS2 Badge"/>

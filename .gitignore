@@ -1,0 +1,13 @@
+# Backups and Archives
+*.zip
+*_backup*
+autoexec_backup/
+alwj0/
+pinpal_original/
+
+# System and Editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.log

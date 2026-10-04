@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cs2_neon_banner.gif" alt="CS2 Pro Autoexec 2026" width="100%" style="border-radius: 10px; max-width: 820px; box-shadow: 0 4px 20px rgba(0, 200, 255, 0.2);"/>
+  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/cs2_neon_banner.gif" alt="CS2 Pro Autoexec 2026 Neon 60FPS" width="100%"/>
 </p>
 
 # ⚡ CS2 Pro Autoexec 2026
@@ -38,6 +38,10 @@
 ---
 
 ## ⌨️ Центр умных биндов (Smart Keybinds Hub)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/cs2_smart_binds.gif" alt="CS2 Smart Keybinds Tactical Setup" width="100%"/>
+</p>
 
 Все клавиши распределены по эргономическим зонам для максимального удобства в соревновательных матчах Premier и Faceit:
 

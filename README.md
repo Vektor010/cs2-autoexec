@@ -199,13 +199,22 @@ ae
 
 ---
 
-<div align="center">
+<h2 align="center">🌐 Сообщество и контакты</h2>
 
-## 🌐 Сообщество и контакты
+<p align="center">
+  <a href="https://t.me/nexcorepc" target="_blank">
+    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/nexcore_banner.jpg" alt="NexCore PC · CS2 Optimization & Hardware Hub" width="100%"/>
+  </a>
+</p>
 
-| ✈️ Telegram-канал | 👤 Автор конфига | ⭐ Проект на GitHub |
-| :---: | :---: | :---: |
-| [![Telegram](https://img.shields.io/badge/NexCore%20PC-24A1DE?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/nexcorepc) | [![GitHub](https://img.shields.io/badge/Vektor010-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vektor010) | [![GitHub Stars](https://img.shields.io/github/stars/Vektor010/cs2-autoexec?style=for-the-badge&logo=github&color=e3b341)](https://github.com/Vektor010/cs2-autoexec) |
-| [**@nexcorepc**](https://t.me/nexcorepc)<br/><sub>Обновления, тесты и оптимизация CS2</sub> | [**Vektor010**](https://github.com/Vektor010)<br/><sub>Поддержка и развитие проекта</sub> | [**cs2-autoexec**](https://github.com/Vektor010/cs2-autoexec)<br/><sub>Звезда проекту и последние релизы</sub> |
-
-</div>
+<p align="center">
+  <a href="https://t.me/nexcorepc" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-NexCore%20PC-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="https://github.com/Vektor010" target="_blank">
+    <img src="https://img.shields.io/badge/Author-Vektor010-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://github.com/Vektor010/cs2-autoexec" target="_blank">
+    <img src="https://img.shields.io/github/stars/Vektor010/cs2-autoexec?style=for-the-badge&logo=github&color=e3b341" alt="Stars"/>
+  </a>
+</p>

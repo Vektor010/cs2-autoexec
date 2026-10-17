@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-0284C7?style=flat" alt="Source 2"/>
   <img src="https://img.shields.io/badge/Latency-Zero%20Input%20Lag-EC4899?style=flat" alt="Zero Lag"/>
   <img src="https://img.shields.io/badge/Audio-Crisp%20EQ%20Footsteps-10B981?style=flat" alt="Crisp EQ"/>
-  <img src="https://img.shields.io/badge/Display-240Hz%20%7C%20144Hz-9333EA?style=flat" alt="Display"/>
+  <img src="https://img.shields.io/badge/Display-540Hz%20%7C%20360Hz-9333EA?style=flat" alt="Display"/>
   <img src="https://img.shields.io/badge/License-MIT-64748B?style=flat" alt="License"/>
 </p>
 

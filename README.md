@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/cs2_neon_banner.png" alt="CS2 Pro Autoexec 2026 Neon 60FPS" width="100%"/>
 </p>
 
-# ⚡ CS2 Pro Autoexec 2026
+<h1 align="center">⚡ CS2 Pro Autoexec 2026</h1>
 
 <p align="center">
   <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/badge/Download-autoexec.zip-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Download autoexec.zip"/></a>

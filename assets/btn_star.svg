@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40">
+  <defs>
+    <linearGradient id="grad-star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="178" height="38" rx="19" fill="url(#grad-star)" stroke="#FCD34D" stroke-width="1.5"/>
+  <g transform="translate(16, 11)" fill="#FFFFFF">
+    <path d="M9 0.5L11.78 6.13L18 7.03L13.5 11.42L14.56 17.61L9 14.69L3.44 17.61L4.5 11.42L0 7.03L6.22 6.13L9 0.5Z"/>
+  </g>
+  <text x="44" y="24" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.2">Поставить звезду</text>
+</svg>

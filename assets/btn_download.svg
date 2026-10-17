@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 190 40">
+  <defs>
+    <linearGradient id="grad-dl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="188" height="38" rx="19" fill="url(#grad-dl)" stroke="#4ADE80" stroke-width="1.5"/>
+  <g transform="translate(16, 11)" fill="#FFFFFF">
+    <path d="M9 0C8.45 0 8 0.45 8 1V9.59L5.71 7.29C5.32 6.9 4.69 6.9 4.3 7.29C3.91 7.68 3.91 8.31 4.3 8.7L8.29 12.7C8.68 13.09 9.31 13.09 9.7 12.7L13.7 8.7C14.09 8.31 14.09 7.68 13.7 7.29C13.31 6.9 12.68 6.9 12.29 7.29L10 9.59V1C10 0.45 9.55 0 9 0ZM1 15C0.45 15 0 15.45 0 16C0 16.55 0.45 17 1 17H17C17.55 17 18 16.55 18 16C18 15.45 17.55 15 17 15H1Z"/>
+  </g>
+  <text x="44" y="24" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.2">Скачать autoexec.zip</text>
+</svg>

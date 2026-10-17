@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40">
+  <defs>
+    <linearGradient id="grad-tg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2AABEE"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="178" height="38" rx="19" fill="url(#grad-tg)" stroke="#70C9F8" stroke-width="1.5"/>
+  <g transform="translate(16, 11)" fill="#FFFFFF">
+    <path d="M17.7 0.3C17.4 0.1 16.9 0 16.5 0.2L0.8 6.3C0.2 6.5 -0.1 7.1 0.0 7.7C0.1 8.2 0.6 8.7 1.2 8.8L5.2 9.9L7.2 16.3C7.4 16.8 7.8 17.1 8.3 17.1C8.6 17.1 8.9 17 9.1 16.8L12.1 13.9L15.6 16.6C16 16.9 16.5 17 17 16.7C17.4 16.5 17.7 16.1 17.8 15.6L19.9 1.6C20 1.1 19.8 0.6 19.4 0.3C19 0 18.2 0 17.7 0.3ZM15.9 3.6L6.8 11.8L5.7 9.3L15.9 3.6Z"/>
+  </g>
+  <text x="44" y="24" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0.2">Telegram: NexCore</text>
+</svg>

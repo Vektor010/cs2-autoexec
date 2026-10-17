@@ -49,17 +49,26 @@
 | `cl_crosshair_gap` | `0` | Нулевой зазор (перекрестие идеально сфокусировано) |
 | `cl_crosshairdot` | `1` | Чёткая точка в самом центре перекрестия |
 | `cl_crosshair_drawoutline` | `false` | Без внешней обводки — максимальная прозрачность рабочей зоны обзора |
+| `cl_crosshair_t` | `false` | Классический симметричный 4-лучевой крест (не Т-образный) |
+| `cl_crosshair_recoil` | `0` | Прицел строго зафиксирован по центру экрана (НЕ следует за отдачей) |
 | `cl_crosshaircolor_r/g/b` | `255 / 0 / 0` | Чистый красный контрастный цвет |
 | `cl_crosshairalpha` | `255` | 100% непрозрачность |
 | `cl_crosshair_sniper_width` | `1` | Тонкие соревновательные риски в снайперском зуме (AWP, SSG 08) |
 | `cl_sniper_show_inaccuracy` | `0` | Отключение размытия перекрестия в зуме при движении |
 | `cl_ironsight_dot_scale` | `1` | **Исправлена видимость точки в зуме AUG и SG 553** (стандартный масштаб 1.0) |
-| `cl_ironsight_usecrosshaircolor` | `true` | Точка в коллиматорах AUG / SG 553 окрашивается в цвет основного прицела |
+| `cl_ironsight_usecrosshaircolor` | `true` | Точка в коллиматорах AUG / SG 553 совпадает с красным цветом прицела |
+| `cl_grenadecrosshair_*` | `false` | Прицелы для гранат отключены для максимальной чистоты обзора |
+| `cl_show_observer_crosshair` | `2` | Отображение прицелов наблюдаемых игроков в спектаторах |
 
 > [!NOTE]
 > 🎛️ **Быстрая подстройка прицела прямо во время раунда:**
 > * **Стрелки `↑` / `↓`:** Мгновенно увеличивают или уменьшают длину линий прицела с шагом `0.5`.
 > * **Стрелки `←` / `→`:** Мгновенно сужают или расширяют зазор перекрестия (Gap) с шагом `1 px`.
+
+```text
+// Быстрая установка прицела одной строкой в консоль игры:
+crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_crosshairthickness 2; cl_crosshair_gap 0; cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshair_recoil 0; cl_crosshairalpha 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0; cl_crosshair_sniper_width 1; cl_sniper_show_inaccuracy 0; cl_ironsight_usecrosshaircolor 1; cl_ironsight_dot_scale 1
+```
 
 ---
 

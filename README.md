@@ -199,28 +199,8 @@ ae
 
 ---
 
-## 🤝 Сообщество, поддержка и контакты
+## 👤 Автор и контакты
 
-<p align="center">
-  <a href="https://t.me/nexcorepc" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-NexCore%20PC-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram NexCore PC"/>
-  </a>
-  <a href="https://github.com/Vektor010" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Vektor010-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
-  </a>
-  <a href="https://github.com/Vektor010/cs2-autoexec" target="_blank">
-    <img src="https://img.shields.io/badge/Star%20Repository-⭐%20Rate-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Star Repository"/>
-  </a>
-</p>
-
-<p align="center">
-  🚀 <b><a href="https://t.me/nexcorepc">NexCore PC</a></b> — соревновательная оптимизация железа, кастомные сборки ПК, профессиональная настройка Windows и конфигов для максимального FPS и стабильного фреймтайма.<br/>
-  <i>Залетай в Telegram-канал: эксклюзивные гайды, тесты железа, свежие фиксы CS2 и живое комьюнити!</i>
-</p>
-
-> [!TIP]
-> ⭐ **Поддержи проект:** Если этот Autoexec помог забустить FPS, убрать инпутлаг и сделать стрельбу чётче — нажми **Star (звёздочку)** в правом верхнем углу репозитория!
-
-<p align="center">
-  <sub>CS2 Pro Autoexec · Maintained by <b><a href="https://github.com/Vektor010">Vektor010</a></b> & <b><a href="https://t.me/nexcorepc">NexCore PC</a></b> · Premier & Faceit Ready 2026</sub>
-</p>
+* **Telegram:** [**NexCore PC**](https://t.me/nexcorepc)
+* **GitHub:** [**Vektor010**](https://github.com/Vektor010)
+* **Репозиторий:** [**Vektor010/cs2-autoexec**](https://github.com/Vektor010/cs2-autoexec)

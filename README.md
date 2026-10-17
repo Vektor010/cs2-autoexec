@@ -199,25 +199,55 @@ ae
 
 ---
 
+## ⭐ Поддержка и мотивация (Star the Project)
+
+> [!TIP]
+> **Понравился конфиг?** Нажмите **Star (звёздочку)** в правом верхнем углу репозитория!  
+> Ваша поддержка — главная мотивация продолжать тестировать каждый новый патч CS2, выявлять скрытые изменения движка Source 2 и своевременно выпускать актуальные обновления.
+
 <div align="center">
 
-## 🌐 Сообщество и полезные ресурсы
+<a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
+  <img src="https://img.shields.io/badge/⭐_Поставить_звезду-Star_Repository-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Star Repository"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
+  <img src="https://img.shields.io/github/stars/Vektor010/cs2-autoexec?style=for-the-badge&logo=github&color=e3b341" alt="Stars Counter"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Vektor010/cs2-autoexec/network/members">
+  <img src="https://img.shields.io/github/forks/Vektor010/cs2-autoexec?style=for-the-badge&logo=github&color=58a6ff" alt="Forks Counter"/>
+</a>
+
+</div>
+
+---
+
+## 🌐 Сообщество и медиаресурсы
+
+Следите за новыми видео, тестированием задержек железа и свежими апдейтами конфига:
+
+<div align="center">
 
 <a href="https://t.me/nexcorepc" target="_blank">
   <img src="https://img.shields.io/badge/Telegram-NexCore%20PC-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
 </a>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.youtube.com/@Skylake159" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-Skylake159-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
 </a>
 
-<br/><br/>
+</div>
 
-<b>Разборы настроек, оптимизация железа и максимальный FPS:</b>
+<br/>
 
-<p align="center">
-  📺 <b><a href="https://www.youtube.com/@Skylake159">YouTube-канал (@Skylake159)</a></b> — подробные видеогайды по уничтожению Input Lag, оптимизации Windows и тестам производительности в CS2.<br/>
-  💬 <b><a href="https://t.me/nexcorepc">Telegram-канал (NexCore PC)</a></b> — свежие апдейты соревновательного конфига, полезные твики, драйверы и помощь по настройке ПК.
-</p>
+* 📺 **[YouTube-канал @Skylake159](https://www.youtube.com/@Skylake159)** — профессиональные тесты задержки ввода (Input Lag), тонкая оптимизация Windows под киберспорт, разгон железа и реальные замеры FPS в CS2.
+* 💬 **[Telegram-канал NexCore PC](https://t.me/nexcorepc)** — оперативные анонсы обновлений конфига под новые патчи игры, готовые твики системы, проверенные драйверы и консультации по оптимизации ПК.
+
+---
+
+<div align="center">
+
+<sub>Разработано для соревновательного сообщества Counter-Strike 2 · NexCore PC · 2026</sub>
 
 </div>

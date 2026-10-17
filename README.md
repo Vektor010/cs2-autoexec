@@ -199,22 +199,25 @@ ae
 
 ---
 
-<h2 align="center">🌐 Сообщество и контакты</h2>
+<div align="center">
+
+## 🌐 Сообщество и полезные ресурсы
+
+<a href="https://t.me/nexcorepc" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-NexCore%20PC-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://www.youtube.com/@Skylake159" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-Skylake159-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+</a>
+
+<br/><br/>
+
+<b>Разборы настроек, оптимизация железа и максимальный FPS:</b>
 
 <p align="center">
-  <a href="https://t.me/nexcorepc" target="_blank">
-    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/nexcore_banner.jpg" alt="NexCore PC · CS2 Optimization & Hardware Hub" width="100%"/>
-  </a>
+  📺 <b><a href="https://www.youtube.com/@Skylake159">YouTube-канал (@Skylake159)</a></b> — подробные видеогайды по уничтожению Input Lag, оптимизации Windows и тестам производительности в CS2.<br/>
+  💬 <b><a href="https://t.me/nexcorepc">Telegram-канал (NexCore PC)</a></b> — свежие апдейты соревновательного конфига, полезные твики, драйверы и помощь по настройке ПК.
 </p>
 
-<p align="center">
-  <a href="https://t.me/nexcorepc" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-NexCore%20PC-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-  <a href="https://github.com/Vektor010" target="_blank">
-    <img src="https://img.shields.io/badge/Author-Vektor010-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://github.com/Vektor010/cs2-autoexec" target="_blank">
-    <img src="https://img.shields.io/github/stars/Vektor010/cs2-autoexec?style=for-the-badge&logo=github&color=e3b341" alt="Stars"/>
-  </a>
-</p>
+</div>

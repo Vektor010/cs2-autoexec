@@ -10,21 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest">
-    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_download.svg" alt="Скачать autoexec.zip" height="38"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
-    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="38"/>
-  </a>
-  &nbsp;
-  <a href="https://t.me/nexcorepc" target="_blank">
-    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_telegram.svg" alt="Telegram: NexCore" height="38"/>
-  </a>
-  &nbsp;
-  <a href="https://www.youtube.com/@Skylake159" target="_blank">
-    <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_youtube.svg" alt="YouTube: Skylake" height="38"/>
-  </a>
+  <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_download.svg" alt="Скачать autoexec.zip" height="38"/></a>&nbsp;&nbsp;
+  <a href="https://github.com/Vektor010/cs2-autoexec/stargazers"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="38"/></a>&nbsp;&nbsp;
+  <a href="https://t.me/nexcorepc" target="_blank"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_telegram.svg" alt="Telegram: NexCore" height="38"/></a>&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@Skylake159" target="_blank"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_youtube.svg" alt="YouTube: Skylake" height="38"/></a>
 </p>
 
 <p align="center">
@@ -217,11 +206,7 @@ cs2-autoexec/
 > Ваша поддержка — главная мотивация продолжать тестировать каждый новый патч CS2, выявлять скрытые изменения движка Source 2 и своевременно выпускать актуальные обновления.
 
 <div align="center">
-
-<a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
-  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="42"/>
-</a>
-
+  <a href="https://github.com/Vektor010/cs2-autoexec/stargazers"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="42"/></a>
 </div>
 
 ---
@@ -231,15 +216,8 @@ cs2-autoexec/
 Следите за новыми видео, тестированием задержек железа и свежими апдейтами конфига:
 
 <div align="center">
-
-<a href="https://t.me/nexcorepc" target="_blank">
-  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_telegram.svg" alt="Telegram: NexCore" height="38"/>
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.youtube.com/@Skylake159" target="_blank">
-  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_youtube.svg" alt="YouTube: Skylake" height="38"/>
-</a>
-
+  <a href="https://t.me/nexcorepc" target="_blank"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_telegram.svg" alt="Telegram: NexCore" height="38"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@Skylake159" target="_blank"><img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_youtube.svg" alt="YouTube: Skylake" height="38"/></a>
 </div>
 
 <br/>

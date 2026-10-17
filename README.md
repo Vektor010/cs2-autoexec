@@ -81,14 +81,13 @@ ae
 
 ---
 
-## 🎛️ Интерактивный центр настроек (Settings & Binds Hub)
+## 🎛️ Центр соревновательных настроек и биндов
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/cs2_smart_binds.png" alt="CS2 Smart Keybinds Tactical Setup" width="100%"/>
 </p>
 
-<details open>
-<summary><h3>🎯 1. Киберспортивный прицел и калибровка оптики (Crosshair & Optics)</h3></summary>
+### 🎯 1. Киберспортивный прицел и калибровка оптики (Crosshair & Optics)
 
 Прицел выверен для максимальной концентрации и точности попаданий в соревновательном режиме Premier и на Faceit:
 
@@ -120,10 +119,9 @@ ae
 crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_crosshairthickness 2; cl_crosshair_gap 0; cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshair_recoil 0; cl_crosshairalpha 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0; cl_crosshair_sniper_width 1; cl_sniper_show_inaccuracy 0; cl_ironsight_usecrosshaircolor 1; cl_ironsight_dot_scale 1
 ```
 
-</details>
+---
 
-<details>
-<summary><h3>🏃 2. Перемещение и стрельба (Combat & Movement)</h3></summary>
+### 🏃 2. Перемещение и стрельба (Combat & Movement)
 
 | Клавиша | Команда / Алиас | Назначение |
 | :--- | :--- | :--- |
@@ -136,10 +134,9 @@ crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_cros
 | **`Стрелки ↑ ↓`** | `incrementvar cl_crosshairsize` | Регулировка длины линий прицела на лету (шаг 0.5) |
 | **`Стрелки ← →`** | `incrementvar cl_crosshairgap` | Регулировка зазора прицела на лету (сузить / расширить Gap, шаг 1 px) |
 
-</details>
+---
 
-<details>
-<summary><h3>💣 3. Бомба, радар и тактические утилиты (Tactical & QoL)</h3></summary>
+### 💣 3. Бомба, радар и тактические утилиты (Tactical & QoL)
 
 | Клавиша | Команда / Алиас | Назначение |
 | :--- | :--- | :--- |
@@ -150,10 +147,9 @@ crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_cros
 | **`T`** | `+spray_menu` | Меню нанесения граффити |
 | **`N`** | `toggleNoclip` | Полёт сквозь стены Noclip со звуковым сигналом (`sv_cheats 1`) |
 
-</details>
+---
 
-<details>
-<summary><h3>🛒 4. Экономика и умная закупка (Economy & Buy)</h3></summary>
+### 🛒 4. Экономика и умная закупка (Economy & Buy)
 
 | Клавиша | Команда / Алиас | Назначение |
 | :--- | :--- | :--- |
@@ -164,10 +160,9 @@ crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_cros
 | **`;` `L` `K` `I` `O`** | `buy rifle0-4` | Закупка винтовок по слотам Loadout без открытия магазина |
 | **`P` `,` `/` `.`** | `buy secondary/midtier` | Закупка пистолетов и фарм-ганов без мыши |
 
-</details>
+---
 
-<details>
-<summary><h3>🔇 5. Акустика, клатч и чат (Audio, Focus & Chat)</h3></summary>
+### 🔇 5. Акустика, клатч и чат (Audio, Focus & Chat)
 
 | Клавиша | Команда / Алиас | Назначение |
 | :--- | :--- | :--- |
@@ -180,10 +175,9 @@ crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_cros
 | **`Numpad 1`** | `clear` | Очистка консоли разработчика в один клик |
 | **`[` / `F8`** | `debug-hud` | Переключение телеметрии (FPS, Ping, Packet Loss) |
 
-</details>
+---
 
-<details>
-<summary><h3>🗂️ 6. Модульная структура конфигурации (.cfg)</h3></summary>
+### 🗂️ 6. Модульная структура конфигурации (.cfg)
 
 Конфигурация разделена на независимые модули, исключающие конфликты ConVar:
 
@@ -214,8 +208,6 @@ cs2-autoexec/
 │   └── demo_viewer.cfg     # Удобное управление при разборе демок
 ```
 
-</details>
-
 ---
 
 ## ⭐ Поддержка и мотивация (Star the Project)
@@ -227,15 +219,7 @@ cs2-autoexec/
 <div align="center">
 
 <a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
-  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="38"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Vektor010/cs2-autoexec/stargazers">
-  <img src="https://img.shields.io/github/stars/Vektor010/cs2-autoexec?style=flat&logo=github&color=e3b341" alt="Stars Counter"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Vektor010/cs2-autoexec/network/members">
-  <img src="https://img.shields.io/github/forks/Vektor010/cs2-autoexec?style=flat&logo=github&color=58a6ff" alt="Forks Counter"/>
+  <img src="https://raw.githubusercontent.com/Vektor010/cs2-autoexec/main/assets/btn_star.svg" alt="Поставить звезду" height="42"/>
 </a>
 
 </div>

@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/Vektor010/cs2-autoexec/releases/latest"><img src="https://img.shields.io/badge/Download-autoexec.zip-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Download autoexec.zip"/></a>
-  <a href="https://github.com/Vektor010/cs2-autoexec/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-16A34A?style=flat-square&logo=git&logoColor=white" alt="Release"/></a>
+  <a href="https://github.com/Vektor010/cs2-autoexec/releases/tag/v1.1.0"><img src="https://img.shields.io/badge/Release-v1.1.0-16A34A?style=flat-square&logo=git&logoColor=white" alt="Release"/></a>
   <img src="https://img.shields.io/badge/Game-Counter--Strike%202-EA580C?style=flat-square&logo=counter-strike&logoColor=white" alt="CS2"/>
   <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-0284C7?style=flat-square" alt="Source 2"/>
   <img src="https://img.shields.io/badge/Input%20Lag-Zero%20(Sleep%200)-EC4899?style=flat-square" alt="Zero Lag"/>
@@ -16,24 +16,50 @@
 
 <p align="center">
   <b>Высокопроизводительный модульный соревновательный конфигурационный пакет (Autoexec) для Counter-Strike 2.</b><br/>
-  <i>The Ultimate Competitive CS2 Autoexec · Sub-Tick Precision · Zero Input Lag · Smart Keybinds Hub · Premier & Faceit Ready.</i>
+  <i>The Ultimate Competitive CS2 Autoexec · Pro Players Settings (donk, ZywOo, sh1ro, m0NESY) · Sub-Tick Precision · Zero Input Lag · Smart Keybinds Hub · Premier & Faceit Ready.</i>
 </p>
 
 > [!TIP]
-> 📥 **Быстрая загрузка:** Чтобы сразу скачать готовый архив со всеми файлами конфигурации и инструкцией, перейдите в [**Релиз v1.0.0**](https://github.com/Vektor010/cs2-autoexec/releases/latest) и скачайте `autoexec.zip`.
+> 📥 **Быстрая загрузка:** Чтобы сразу скачать готовый архив со всеми файлами конфигурации и инструкцией, перейдите в [**Релиз v1.1.0**](https://github.com/Vektor010/cs2-autoexec/releases/latest) и скачайте `autoexec.zip`.
 
 ---
 
 ## 🌟 Почему этот Autoexec лучший для соревновательного CS2?
 
-Большинство старых конфигов созданы ещё для CS:GO и содержат неработающие команды, вызывающие ошибки в консоли и нестабильный фреймтайм. **CS2 Pro Autoexec 2026** построен с нуля под архитектуру **Source 2** и обновления осени 2026 года:
+Большинство старых конфигов созданы ещё для CS:GO и содержат неработающие команды, вызывающие ошибки в консоли и нестабильный фреймтайм. **CS2 Pro Autoexec 2026** построен с нуля под архитектуру **Source 2** и вобрал лучшие соревновательные решения про-сцены (**donk**, **ZywOo**, **sh1ro**, **m0NESY**):
 
 * 🚀 **Zero Input Lag:** `engine_no_focus_sleep 0` — игра не сбрасывает кадры и не засыпает при сворачивании или работе на втором мониторе.
 * 🎧 **Точная математика звука:** 10-секундный таймер бомбы рассчитан по квадратичной шкале Source 2 ($0.12^2 = 0.0144$) — ровно 12% в интерфейсе игры.
 * 👥 **Командный HUD:** `cl_teamcounter_playercount_instead_of_avatars false` — сверху отображаются все 5 игроков с их полосками здоровья и цветами.
-* 🎯 **Спортивный прицел:** Красный `Static Cross 2/2/0` с точкой по центру, совместимый как с классическими, так и с новыми ConVar Valve (`cl_crosshair_length`).
-* ⚡ **Smart Keybinds Hub:** Полный набор умных биндов (возврат покупок Backspace, Jumpthrow под большой палец, быстрый дроп C4, полный мут звука Numpad 0).
+* 🎯 **Спортивный прицел и калиброванная оптика:** Красный `Static Cross 2/2/0` с точкой по центру, чёткие риски AWP (`cl_crosshair_sniper_width 1`) и исправленный зум коллиматоров AUG / SG 553 (`cl_ironsight_dot_scale 1`).
+* ⚡ **Smart Keybinds Hub:** Полный набор умных биндов (возврат покупок Backspace, Jumpthrow под большой палец sh1ro `Пробел + C`, быстрый дроп C4, полный мут звука Numpad 0).
 * 💬 **Умный чат (F10/F11):** Двухрежимный переключатель фраз — ироничный Savage трэш-ток (без мата) для врагов и добрые фразы для коммендов и Trust Factor.
+
+---
+
+## 🎯 Киберспортивный прицел и оптика (Pro Crosshair & Optics)
+
+Прицел выверен для максимальной концентрации и точности попаданий в голову в соревновательном режиме Premier и на Faceit:
+
+| Параметр ConVar | Значение | Описание |
+| :--- | :--- | :--- |
+| `cl_crosshairstyle` | `4` | Статический спортивный стиль (Static Cross — не расширяется при беге) |
+| `cl_crosshairsize` | `2` | Оптимальная соревновательная длина линий (2 px) |
+| `cl_crosshairthickness` | `2` | Плотная толщина линий для превосходной читаемости на светлых текстурах |
+| `cl_crosshair_gap` | `0` | Нулевой зазор (перекрестие идеально сфокусировано) |
+| `cl_crosshairdot` | `1` | Чёткая точка в самом центре перекрестия |
+| `cl_crosshair_drawoutline` | `false` | Без внешней обводки — максимальная прозрачность рабочей зоны обзора |
+| `cl_crosshaircolor_r/g/b` | `255 / 0 / 0` | Чистый красный контрастный цвет |
+| `cl_crosshairalpha` | `255` | 100% непрозрачность |
+| `cl_crosshair_sniper_width` | `1` | Тонкие соревновательные риски в снайперском зуме (AWP, SSG 08) |
+| `cl_sniper_show_inaccuracy` | `0` | Отключение размытия перекрестия в зуме при движении |
+| `cl_ironsight_dot_scale` | `1` | **Исправлена видимость точки в зуме AUG и SG 553** (стандартный масштаб 1.0) |
+| `cl_ironsight_usecrosshaircolor` | `true` | Точка в коллиматорах AUG / SG 553 окрашивается в цвет основного прицела |
+
+> [!NOTE]
+> 🎛️ **Быстрая подстройка прицела прямо во время раунда:**
+> * **Стрелки `↑` / `↓`:** Мгновенно увеличивают или уменьшают длину линий прицела с шагом `0.5`.
+> * **Стрелки `←` / `→`:** Мгновенно сужают или расширяют зазор перекрестия (Gap) с шагом `1 px`.
 
 ---
 
@@ -52,7 +78,7 @@
 | **`Left Ctrl`** | `+sprint` | **Тихий шаг (Walk)** |
 | **`Пробел` / `MWHEELDOWN`** | `+jump` | Двойной прыжок (колёсико вниз для идеального Bhop) |
 | **`MWHEELUP`** | `invprev` | Быстрый выбор предыдущего оружия |
-| **`C` / `K`** | `-attack` | **Jumpthrow** — идеальный бросок гранаты в прыжке под большой палец |
+| **`C` / `K`** | `-attack` | **Jumpthrow** — идеальный бросок гранаты в прыжке под большой палец (схема sh1ro) |
 | **`H`** | `switchhands` | **Смена ведущей руки** (левая / правая) для открытия узких углов |
 | **`Стрелки ↑ ↓`** | `incrementvar cl_crosshairsize` | Регулировка длины линий прицела прямо во время матча (шаг 0.5) |
 | **`Стрелки ← →`** | `incrementvar cl_crosshairgap` | Регулировка зазора прицела на лету (сузить / расширить Gap, шаг 1 px) |
@@ -113,7 +139,7 @@ cs2-autoexec/
 │   ├── aliases.cfg         # Алиасы, быстрые команды и шорткаты
 │   ├── audio.cfg           # Акустика, квадратичная шкала, L/R изоляция 75%
 │   ├── buybinds.cfg        # Бинды закупки, сброс покупок (sellbackall)
-│   ├── crosshair.cfg       # Спортивный прицел (Static Cross 2/2/0 + Dot)
+│   ├── crosshair.cfg       # Спортивный прицел и калибровка оптики (AUG/SG/AWP)
 │   ├── game.cfg            # Игровой процесс, настройки лобби и интерфейса
 │   ├── hud.cfg             # Радар, телеметрия, 5 карточек игроков вверху
 │   ├── keybinds.cfg        # Полная раскладка клавиатуры и мыши

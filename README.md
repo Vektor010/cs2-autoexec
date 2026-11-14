@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Game-Counter--Strike%202-EA580C?style=flat&logo=counter-strike&logoColor=white" alt="CS2"/>
-  <img src="https://img.shields.io/badge/Release-v1.1.0-16A34A?style=flat&logo=git&logoColor=white" alt="Release"/>
+  <img src="https://img.shields.io/badge/Release-v1.2.0-16A34A?style=flat&logo=git&logoColor=white" alt="Release"/>
   <img src="https://img.shields.io/badge/Engine-Source%202%20Sub--Tick-0284C7?style=flat" alt="Source 2"/>
   <img src="https://img.shields.io/badge/Latency-Zero%20Input%20Lag-EC4899?style=flat" alt="Zero Lag"/>
   <img src="https://img.shields.io/badge/Audio-Crisp%20EQ%20Footsteps-10B981?style=flat" alt="Crisp EQ"/>
@@ -32,15 +32,18 @@
 
 Конфигурация оптимизирована под соревновательные режимы **Premier** и **Faceit** на основе актуальных сетапов игроков мировой про-сцены (**donk**, **ZywOo**, **sh1ro**, **m0NESY**):
 
-* 🚀 **Максимум FPS & Zero Lag:** `engine_no_focus_sleep 0` и `cl_net_buffer_ticks 0` — задержка ввода сведена к минимуму, стабильный фреймтайм без микрофризов и мгновенный отклик мыши.
-* 🎧 **Кристально чистый звук:** Профиль **Crisp EQ** выводит шаги врагов и чеку гранат на передний план, отсекая басовый гул взрывов. Стереоизоляция 75% обеспечивает точный азимут звука, а 10-секундный таймер бомбы откалиброван на комфортные 12% (не глушит уши в клатче). Плавный микшер громкости на `=` / `-`!
-* 🎯 **Турнирный прицел + Фикс оптики:** Красный `Static Cross 2/2/0` с точкой. Исправлен баг исчезающей точки в зуме **AUG / SG 553** (`cl_ironsight_dot_scale 1`), настроены чёткие риски AWP без мыла в движении и регулировка размера стрелками прямо в матче.
+* 🚀 **Максимум FPS & Zero Lag:** `engine_no_focus_sleep 0`, `cl_net_buffer_ticks 0`, `battery_saver false` и `rate 1000000` — задержка ввода сведена к минимуму, стабильный фреймтайм без микрофризов и мгновенный отклик мыши.
+* 🎧 **Кристально чистый звук:** Профиль **Crisp EQ** выводит шаги врагов и чеку гранат на передний план, отсекая басовый гул взрывов. Стереоизоляция 75% обеспечивает точный азимут звука, фоновый шум меню и карты полностью отключен (`snd_menumap_volume 0.00`, `snd_musicvolume 0.00`), а 10-секундный таймер бомбы откалиброван на комфортные 12% (0.0144 — не глушит уши в клатче). Плавный 21-ступенчатый микшер громкости на `=` / `-` с моментальным цветным логом в консоли!
+* 🎯 **Турнирный прицел + Фикс оптики:** Красный `Static Cross 2/2/0` с точкой без обводки. Отключено раздражающее предупреждение при наведении на своих (`cl_crosshair_friendly_warning 0`), исправлен баг исчезающей точки в зуме **AUG / SG 553** (`cl_ironsight_dot_scale 1`), настроены чёткие риски AWP без мыла в движении и быстрая регулировка размера/зазора стрелками с шагом 1 px прямо в матче.
 * ⌨️ **Умные киберспортивные бинды:**
   * 💣 **Мгновенный сброс пачки (`J`):** Дроп C4 под ноги или тиммейту за долю секунды без доставания бомбы в руки.
   * 🤸 **Jumpthrow sh1ro (`Пробел + C / K`):** Идеальные раскидки гранат под большой палец со 100% повторяемостью.
   * 🔄 **Анатомическая инверсия `Shift / Ctrl`:** Приседание на длинный Shift снимает напряжение с мизинца при крауч-мувменте.
-  * 🔇 **Быстрый мут (`End`) & Режим Clutch (`F5`):** Заглушить игру в дискорде или замутить тиммейтов в клатче одной кнопкой.
-  * 🛒 **Возврат покупок (`Backspace`):** Мгновенная отмена всех покупок во фризтайме, если мискликнул в магазине (`Delete` — заглушить радио).
+  * 🔇 **Быстрый мут (`End`) & Режим Clutch (`F5`):** Мгновенно заглушить звук игры в дискорде или замутить тиммейтов в клатче одной кнопкой.
+  * 🧹 **Очистка консоли (`Home`) & Радио (`Delete`):** Чистая консоль в один клик и глушение радио-спама ботов/тиммейтов (`ignorerad`).
+  * 📸 **Скрытие HUD (`F8`) & SDR-статистика (`F9`):** Мгновенное скрытие интерфейса для чистых скриншотов (`toggle cl_drawhud 0 1`) и вывод расширенной сетевой телеметрии SDR в консоль.
+  * 🖱️ **Классический скролл оружия:** Колёсико мыши (`MWHEELUP / MWHEELDOWN`) для быстрого выбора оружия, прыжок зафиксирован на пробел.
+  * 🛒 **Возврат покупок (`Backspace`):** Мгновенная отмена всех покупок во фризтайме, если мискликнул в магазине.
 * 🖥️ **Соревновательный минимализм интерфейса:** Радар охватывает всю карту сразу (динамический зум на `MOUSE4`), вверху — 5 подробных карточек тиммейтов с HP и цветами, а весь отвлекающий визуальный мусор выключен.
 * 💬 **Умный чат (`F10`):** 30 отборных англоязычных трэш-ток фраз (без мата и банов) для деморализации соперников в соло-матчах.
 
@@ -96,16 +99,17 @@ ae
 | `cl_sniper_show_inaccuracy` | `0` | Отключение размытия перекрестия в зуме при движении |
 | `cl_ironsight_dot_scale` | `1` | **Фикс точки в зуме AUG и SG 553** (стандартный масштаб 1.0) |
 | `cl_ironsight_usecrosshaircolor` | `true` | Красный цвет точки в коллиматорах AUG / SG 553 |
+| `cl_crosshair_friendly_warning` | `0` | **Отключение круга предупреждения** при наведении прицела на тиммейтов |
 | `cl_grenadecrosshair_*` | `false` | Прицелы для гранат отключены для чистоты обзора |
 | `cl_show_observer_crosshair` | `2` | Отображение прицелов наблюдаемых игроков |
 
 > 🎛️ **Подстройка прицела на лету прямо в матче:**
-> * **Стрелки `↑` / `↓`:** Регулировка длины линий с шагом `0.5`.
-> * **Стрелки `←` / `→`:** Регулировка зазора (Gap) с шагом `1 px`.
+> * **Стрелки `↑` / `↓`:** Регулировка длины линий с шагом `1 px` (`incrementvar cl_crosshair_length / size`).
+> * **Стрелки `←` / `→`:** Регулировка зазора (Gap) с шагом `1 px` (`incrementvar cl_crosshair_gap / gap`).
 
 ```text
 // Установка прицела одной строкой в консоль игры:
-crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_crosshairthickness 2; cl_crosshair_gap 0; cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshair_recoil 0; cl_crosshairalpha 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0; cl_crosshair_sniper_width 1; cl_sniper_show_inaccuracy 0; cl_ironsight_usecrosshaircolor 1; cl_ironsight_dot_scale 1
+crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_crosshairthickness 2; cl_crosshair_gap 0; cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshair_recoil 0; cl_crosshairalpha 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0; cl_crosshair_sniper_width 1; cl_sniper_show_inaccuracy 0; cl_ironsight_usecrosshaircolor 1; cl_ironsight_dot_scale 1; cl_crosshair_friendly_warning 0
 ```
 
 ---
@@ -116,12 +120,13 @@ crosshair 1; cl_crosshairstyle 4; cl_crosshairdot 1; cl_crosshairsize 2; cl_cros
 | :--- | :--- | :--- |
 | **`Left Shift`** | `+duck` | **Присесть** (анатомическая инверсия — снимает нагрузку с мизинца) |
 | **`Left Ctrl`** | `+sprint` | **Тихий шаг (Walk)** |
-| **`Пробел` / `MWHEELDOWN`** | `+jump` | Двойной прыжок (колёсико вниз для идеального Bhop) |
-| **`MWHEELUP`** | `invprev` | Быстрый выбор предыдущего оружия |
+| **`Пробел`** | `+jump` | **Прыжок** соревновательный |
+| **`MWHEELUP`** | `invprev` | Предыдущее оружие (скролл колеса вверх) |
+| **`MWHEELDOWN`** | `invnext` | Следующее оружие (скролл колеса вниз) |
 | **`C` / `K`** | `-attack` | **Jumpthrow** — бросок гранаты в прыжке под большой палец (схема sh1ro) |
 | **`H`** | `switchhands` | **Смена ведущей руки** (левая / правая) для открытия узких углов |
-| **`Стрелки ↑ ↓`** | `incrementvar cl_crosshairsize` | Регулировка длины линий прицела на лету (шаг 0.5) |
-| **`Стрелки ← →`** | `incrementvar cl_crosshairgap` | Регулировка зазора прицела на лету (сузить / расширить Gap, шаг 1 px) |
+| **`Стрелки ↑ ↓`** | `incrementvar cl_crosshair_length` | Регулировка длины линий прицела на лету (шаг 1 px) |
+| **`Стрелки ← →`** | `incrementvar cl_crosshair_gap` | Регулировка зазора прицела на лету (сузить / расширить Gap, шаг 1 px) |
 
 ---
 
@@ -179,18 +184,18 @@ cs2-autoexec/
 ├── knifeMenu.cfg           # Интерактивное меню выдачи кастомных ножей
 ├── autoexec/               # Модульные конфиги по направлениям
 │   ├── aliases.cfg         # Алиасы, быстрые команды и шорткаты
-│   ├── audio.cfg           # Акустика Crisp EQ, L/R изоляция 75%
-│   ├── buybinds.cfg        # Бинды закупки, сброс покупок (sellbackall)
-│   ├── crosshair.cfg       # Спортивный прицел и калибровка оптики (AUG/SG/AWP)
-│   ├── game.cfg            # Игровой процесс, настройки лобби и интерфейса
+│   ├── audio.cfg           # Акустика Crisp EQ, L/R 75%, 21-ступенчатый микшер с цветным логом
+│   ├── buybinds.cfg        # Бинды закупки, возврат покупок, глушение радио
+│   ├── crosshair.cfg       # Спортивный прицел 2/2/0, фикс точки AUG/SG, friendly warning 0
+│   ├── game.cfg            # Игровой процесс, настройки лобби, joystick 0 (zero stutter)
 │   ├── hud.cfg             # Радар, телеметрия, карточки игроков вверху
-│   ├── keybinds.cfg        # Полная раскладка клавиатуры и мыши
+│   ├── keybinds.cfg        # Полная соревновательная раскладка клавиатуры и мыши
 │   ├── mouse_sensitivity.cfg # Сенса, множители осей и масштабирование зума
-│   ├── network.cfg         # Sub-tick, буферизация 0 и отключение фейк-регдоллов
+│   ├── network.cfg         # Sub-tick, rate 1000000, буферизация 0
 │   ├── printMsg.cfg        # Цветная статус-панель в консоли при загрузке
-│   ├── trash_talk.cfg      # Двухрежимный пул фраз для чата (RU + EN)
-│   ├── video.cfg           # Zero Lag (sleep 0), гамма 2.1, fps_max_ui 240
-│   └── viewmodel.cfg       # Кастомное соревновательное расположение оружия
+│   ├── trash_talk.cfg      # 30 отборных англоязычных Savage Rage фраз для F10
+│   ├── video.cfg           # Zero Lag (sleep 0), гамма 2.06, battery_saver false
+│   └── viewmodel.cfg       # Кастомный вид оружия + cl_usenewbob false (минимальная тряска)
 ├── gamemodes/              # Тренировочные режимы для локального сервера
 │   ├── training.cfg        # Практика раскидок (бесконечные гранаты, траектории)
 │   ├── warmup.cfg          # Разминочный DM-режим с мгновенным респауном
